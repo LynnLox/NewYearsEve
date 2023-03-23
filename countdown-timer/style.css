@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-none;
+
+}
+
+body{
+    background-image: url("images/mount.jpg");
+    background-size: cover;
+    background-position: center center;
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+}
+
+h1{
+    font-size: 5vh;
+    margin-top: -60vh;
+}
+
+.countdown-container{
+    display: flex;
+}
